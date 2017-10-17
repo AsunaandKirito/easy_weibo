@@ -1,0 +1,88 @@
+body{
+	background:#454545;
+	line-height: 1.7;
+}
+
+a{
+	text-decoration: none;
+}
+
+a,body{
+	color: #eee;
+}
+.left{
+	float: left;
+	width: 20%;
+	position: fixed;
+}
+.left .logo{
+	padding:10px 20px;
+	font-size: 30px;
+	display: inline-block;
+	border: 5px solid #eee;
+	margin-bottom: 10px;
+	line-height: 1;
+}
+.left > *{
+	padding:10px 15px;
+}
+
+.left .wo a,
+.left .qita a{
+	display: block;
+	padding: 5px 0;
+	color: #888;
+	-webkit-transition:color 200ms;
+	-o-transition:color 200ms;
+	transition: color 200ms;
+}
+
+.left .wo a:hover,
+.left .qita a:hover{
+	color: #eee;
+}
+
+.left .wo a{
+	font-weight: 700;
+}
+
+.right{
+	float: right;
+	width: 80%;
+}
+
+.main{
+	margin-right: 30%;
+	background: #fff;
+	color: #454545;
+	padding: 20px 30px;
+	-webkit-box-shadow:0 0 3px 2px rgba(0,0,0,.2);
+	box-shadow:0 0 3px 2px rgba(0,0,0,.2);
+}
+
+.main .item .timu{
+	font-size: 20px;
+	font-weight: 700;
+	color: #454545;
+}
+
+.main .item .shijian{
+	font-size: 10px;
+	color: #ccc;
+}
+
+.right .main>*{
+	margin:10px 0px;
+}
+
+.right .main .item{
+	margin-bottom:25px;
+}
+
+.right .main > *{
+	margin-bottom: 10px 0;
+}
+
+.right .main {
+	margin-bottom: 25px;
+}
